@@ -1,10 +1,5 @@
 import os
-import numpy
+import sys
+import numpy as np
 
-print("hello world")
-
-print(os.name)
-
-print(os.getcwd())
-
-print(numpy.sqrt(15))
+print(sys.version)
