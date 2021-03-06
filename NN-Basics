@@ -1,0 +1,44 @@
+dense layer
+dropout layer
+batch noramlization layer
+conv2d
+
+Activation function:
+--------------------
+	1. Identity function
+	2. Sigmoid function binary classifier.
+	3. Softmax for multi level classifier
+	4. tanh 
+	5. ReLU
+	6. Leaky ReLU
+	7. PReLU
+
+Optimizers:
+-----------
+	1. Gradient Descent
+	2. Stochastic Gradient Descent
+	3. Mini-Batch SGD
+	4. Momentum
+	5. Netorov
+	6. AdaGrad
+	7. Ada Deta
+	8. Ada
+	9. RMSProp
+
+Weight Initializers:
+--------------------
+	1. Zero Initialization
+	2. Random Initialization
+	3. He Initialization
+	4. Xavier Initialization
+	
+Types of Layers:
+----------------
+	1. Batch Normalization
+	2. Dense
+	3. Conv2d
+	4. Dropout
+	5. Flatten
+	6. MaxPool/AvgPool
+	7. ReLU
+	
