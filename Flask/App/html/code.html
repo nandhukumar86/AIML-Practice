@@ -1,0 +1,24 @@
+<html>
+
+<body>
+    <form method="post" enctype="multipart/form-data" action="http://localhost:5000/uploader">
+        <h2>1. Upload data set:</h2>
+        <input type="file" name="file" />
+        <input type="submit" value="Upload" />
+    </form>
+    <form method="post" enctype="multipart/form-data" action="http://localhost:5000/regressor">
+        <h2>2. Neural Network Regressor</h2>
+        <h4> Enter the Target Column:</h4>
+        <input type="target" name="target" />
+        <input type="submit" value="Train & Pickle" />
+    </form>
+    <form method="post" enctype="multipart/form-data" action="http://localhost:5000/classifier">
+        <h2>2. Neural Network Classifier</h2>
+        <h4> Enter the Target Column:</h4>
+        <input type="target" name="target" />
+        <input type="submit" value="Train & Pickle" />
+    </form>
+
+</body>
+
+</html>
